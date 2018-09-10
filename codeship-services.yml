@@ -1,4 +1,5 @@
 tester:
   build:
     context:    test/container
+    dockerfile: Dockerfile
     image:      signal-tests
