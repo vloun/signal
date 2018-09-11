@@ -3,5 +3,8 @@ FROM node:8.10
 
 WORKDIR /signal-test
 
-COPY package.json .
+COPY docker/tester/package.json .
 RUN  npm install
+
+COPY src/  src/
+COPY test/ test/

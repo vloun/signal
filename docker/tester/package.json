@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"This is where the tests will be.\" && exit 0"
+    "test": "mocha test/tests"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/vloun/signal#readme",
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "chai": "4.1.2",
+    "mocha": "5.2.0"
   }
 }
