@@ -1,0 +1,6 @@
+api_stack_name: SignalAPIStack
+
+lambda_source_s3_bucket: kb-signal-src
+lambda_source_s3_key:    signal.zip
+
+region: us-west-2

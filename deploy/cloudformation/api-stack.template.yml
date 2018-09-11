@@ -1,0 +1,59 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    7e83a50f-4800-4d7b-b77c-69e0afcda815:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 340
+        'y': 130
+      z: 0
+      embeds: []
+    334bb880-752a-430b-9767-96c69fe9481a:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 340
+        'y': 240
+      z: 0
+      embeds: []
+Resources:
+  GetMenu:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      Handler: getMenu
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Code:
+        S3Bucket: !Ref SourceS3Bucket
+        S3Key: !Ref SourceS3Key
+        S3ObjectVersion: !Ref SourceS3Version
+      Runtime: nodejs8.10
+      Timeout: 25
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 7e83a50f-4800-4d7b-b77c-69e0afcda815
+  LambdaExecutionRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      RoleName: !Sub '${ AWS::StackName }-LambdaExecutionRole'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 334bb880-752a-430b-9767-96c69fe9481a
+Parameters:
+  SourceS3Bucket:
+    Type: String
+  SourceS3Key:
+    Type: String
+  SourceS3Version:
+    Type: String

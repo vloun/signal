@@ -1,0 +1,32 @@
+- name: assert the bucket for the lambda source
+  aws_s3:
+    bucket: "{{ lambda_source_s3_bucket }}"
+    mode:   create
+    region: "{{ region }}"
+
+- name: zip the src
+  archive:
+    dest: "/tmp/{{ lambda_source_s3_key }}"
+    path:
+      - "/signal-deploy/src/*"
+    format: zip
+
+- name: upload src package
+  aws_s3:
+    bucket: "{{ lambda_source_s3_bucket }}"
+    mode:   put
+    object: "{{ lambda_source_s3_key }}"
+    region: "{{ region }}"
+    src:    "/tmp/{{ lambda_source_s3_key }}"
+
+- name: getobj (cli)
+  shell: >
+    aws s3api get-object
+    --bucket {{ lambda_source_s3_bucket }}
+    --region {{ region }}
+    --key {{ lambda_source_s3_key }}
+    /dev/null
+  register: src_object_info
+
+- set_fact:
+    src_version_id: "{{ ( src_object_info.stdout | from_json ).VersionId }}"

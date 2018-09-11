@@ -1,0 +1,2 @@
+- include_tasks: 01-src.yml
+- include_tasks: 02-stack.yml

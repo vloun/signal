@@ -1,0 +1,12 @@
+- name: API stack
+  cloudformation:
+    stack_name: "{{ api_stack_name }}"
+    state:      present
+    region:     "{{ region }}"
+    template:   "../cloudformation/api-stack.template.yml"
+    template_parameters:
+      SourceS3Bucket:          "{{ lambda_source_s3_bucket }}"
+      SourceS3Key:             "{{ lambda_source_s3_key }}"
+      SourceS3Version:         "{{ src_version_id }}"
+    tags:
+      Stack: "{{ api_stack_name }}"

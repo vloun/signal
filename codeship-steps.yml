@@ -1,3 +1,7 @@
 - name: run tests
   service: tester
   command: npm run test
+
+- name: deploy
+  service: deployer
+  command: ansible-playbook -vv deploy-signal-api.yml

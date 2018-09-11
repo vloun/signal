@@ -1,4 +1,10 @@
 tester:
   build:
     dockerfile: docker/tester/Dockerfile
-    image:      signal-tests
+    image:      signal-tester
+
+deployer:
+  build:
+    dockerfile: docker/deployer/Dockerfile
+    image:      signal-deployer
+  encrypted_env_file: docker/deployer/env.encrypted
