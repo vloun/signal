@@ -1,5 +1,8 @@
 api_stack_name: SignalAPIStack
 
+api_name:             Signal
+api_deployment_stage: production
+
 lambda_source_s3_bucket: kb-signal-src
 lambda_source_s3_key:    signal.zip
 

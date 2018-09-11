@@ -5,8 +5,21 @@
     region:     "{{ region }}"
     template:   "../cloudformation/api-stack.template.yml"
     template_parameters:
-      SourceS3Bucket:          "{{ lambda_source_s3_bucket }}"
-      SourceS3Key:             "{{ lambda_source_s3_key }}"
-      SourceS3Version:         "{{ src_version_id }}"
+      APIName:         "{{ api_name }}"
+      SourceS3Bucket:  "{{ lambda_source_s3_bucket }}"
+      SourceS3Key:     "{{ lambda_source_s3_key }}"
+      SourceS3Version: "{{ src_version_id }}"
     tags:
       Stack: "{{ api_stack_name }}"
+  register: api_stack_result
+
+- debug:
+    var: api_stack_result.stack_outputs.RestApiId
+
+- name: Deploy the API
+  shell: >
+    aws apigateway create-deployment
+    --rest-api-id {{ api_stack_result.stack_outputs.RestApiId }}
+    --stage-name {{ api_deployment_stage }}
+    --description $( date -u +%Y-%m-%d-%H:%M:%S )
+    --region us-west-2

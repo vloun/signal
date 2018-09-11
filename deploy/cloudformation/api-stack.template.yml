@@ -6,8 +6,8 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 340
-        'y': 130
+        x: 100
+        'y': 140
       z: 0
       embeds: []
     334bb880-752a-430b-9767-96c69fe9481a:
@@ -15,15 +15,133 @@ Metadata:
         width: 60
         height: 60
       position:
-        x: 340
-        'y': 240
+        x: -50
+        'y': 140
       z: 0
       embeds: []
+    1ffe011c-57d8-4241-8aea-2d05dc36a9df:
+      size:
+        width: 520
+        height: 380
+      position:
+        x: 370
+        'y': 80
+      z: 0
+      embeds:
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+    250751d9-88bd-4aaf-825e-a07357e1cd5b:
+      size:
+        width: 150
+        height: 120
+      position:
+        x: 430
+        'y': 130
+      z: 1
+      parent: 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+      embeds:
+        - 6c1f67df-137d-44b9-9f00-9fd109079170
+      iscontainedinside:
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+    6c1f67df-137d-44b9-9f00-9fd109079170:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 470
+        'y': 160
+      z: 2
+      parent: 250751d9-88bd-4aaf-825e-a07357e1cd5b
+      embeds: []
+      iscontainedinside:
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+    6a31e1a2-069d-492c-9010-76e70f46eb3f:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 210
+        'y': 140
+      z: 0
+      embeds: []
+      isassociatedwith:
+        - 7e83a50f-4800-4d7b-b77c-69e0afcda815
+    79adca3e-7109-48dc-b92f-4b05bd806a57:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: -50
+        'y': 250
+      z: 0
+      embeds: []
+      isassociatedwith:
+        - 334bb880-752a-430b-9767-96c69fe9481a
+    c9993fb6-0711-4f6c-ba04-dd365ef20d82:
+      source:
+        id: 79adca3e-7109-48dc-b92f-4b05bd806a57
+      target:
+        id: 334bb880-752a-430b-9767-96c69fe9481a
+      z: 11
 Resources:
-  GetMenu:
+  GetMenuFunction:
     Type: 'AWS::Lambda::Function'
     Properties:
-      Handler: getMenu
+      Handler: getMenu.handler
       Role: !GetAtt LambdaExecutionRole.Arn
       Code:
         S3Bucket: !Ref SourceS3Bucket
@@ -50,10 +168,81 @@ Resources:
     Metadata:
       'AWS::CloudFormation::Designer':
         id: 334bb880-752a-430b-9767-96c69fe9481a
+  RestApi:
+    Type: 'AWS::ApiGateway::RestApi'
+    Properties:
+      EndpointConfiguration:
+        Types:
+          - EDGE
+      Name: !Ref APIName
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+  MenuResource:
+    Type: 'AWS::ApiGateway::Resource'
+    Properties:
+      ParentId: !GetAtt RestApi.RootResourceId
+      PathPart: menu
+      RestApiId: !Ref RestApi
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 250751d9-88bd-4aaf-825e-a07357e1cd5b
+  GetMenuMethod:
+    Type: 'AWS::ApiGateway::Method'
+    Properties:
+      ResourceId: !Ref MenuResource
+      RestApiId: !Ref RestApi
+      HttpMethod: GET
+      AuthorizationType: NONE
+      Integration:
+        IntegrationHttpMethod: POST
+        Type: AWS_PROXY
+        Uri: !Sub >-
+          arn:aws:apigateway:${ AWS::Region
+          }:lambda:path/2015-03-31/functions/${ GetMenuFunction.Arn
+          }/invocations
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 6c1f67df-137d-44b9-9f00-9fd109079170
+  GetMenuPermission:
+    Type: 'AWS::Lambda::Permission'
+    Properties:
+      Action: 'lambda:invokeFunction'
+      FunctionName: !GetAtt GetMenuFunction.Arn
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Sub 'arn:aws:execute-api:${ AWS::Region }:${ AWS::AccountId }:${ RestApi }/*'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 6a31e1a2-069d-492c-9010-76e70f46eb3f
+  LambdaLogPolicy:
+    Type: 'AWS::IAM::Policy'
+    Properties:
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action:
+              - 'logs:CreateLogGroup'
+              - 'logs:CreateLogStream'
+              - 'logs:PutLogEvents'
+            Resource: '*'
+      PolicyName: LambdaLogPolicy
+      Roles:
+        - !Ref LambdaExecutionRole
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 79adca3e-7109-48dc-b92f-4b05bd806a57
 Parameters:
+  APIName:
+    Type: String
   SourceS3Bucket:
     Type: String
   SourceS3Key:
     Type: String
   SourceS3Version:
     Type: String
+Outputs:
+  RestApiId:
+    Value: !Ref RestApi
+    Export:
+      Name: !Sub '${ AWS::StackName }:RestApiId'
