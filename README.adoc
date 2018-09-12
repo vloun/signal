@@ -54,7 +54,7 @@ The deployer container depends on AWS credentials in link:./deploy/env.encrypted
 
 ## Project Management
 
-This repo uses a basic Kanban board to track and prioritize development tasks. Commit messages reference issue numbers on the project board.
+This repo uses a https://github.com/vloun/signal/projects/1[basic Kanban project] to track and prioritize development tasks. Commit messages reference issue numbers on the project board.
 
 ## Things Not Done
 
