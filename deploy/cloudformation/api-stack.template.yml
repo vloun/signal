@@ -21,8 +21,8 @@ Metadata:
       embeds: []
     1ffe011c-57d8-4241-8aea-2d05dc36a9df:
       size:
-        width: 520
-        height: 380
+        width: 300
+        height: 300
       position:
         x: 370
         'y': 80
@@ -34,7 +34,7 @@ Metadata:
         width: 150
         height: 120
       position:
-        x: 430
+        x: 440
         'y': 130
       z: 1
       parent: 1ffe011c-57d8-4241-8aea-2d05dc36a9df
@@ -42,73 +42,20 @@ Metadata:
         - 6c1f67df-137d-44b9-9f00-9fd109079170
       iscontainedinside:
         - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
+
     6c1f67df-137d-44b9-9f00-9fd109079170:
       size:
         width: 60
         height: 60
       position:
-        x: 470
+        x: 480
         'y': 160
       z: 2
       parent: 250751d9-88bd-4aaf-825e-a07357e1cd5b
       embeds: []
       iscontainedinside:
         - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 1ffe011c-57d8-4241-8aea-2d05dc36a9df
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
-        - 250751d9-88bd-4aaf-825e-a07357e1cd5b
+
     6a31e1a2-069d-492c-9010-76e70f46eb3f:
       size:
         width: 60
