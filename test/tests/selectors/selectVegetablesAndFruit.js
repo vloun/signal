@@ -2,8 +2,9 @@ const expect = require( 'chai' ).expect;
 
 const selectVegetablesAndFruit = require( '../../../src/selectors/selectVegetablesAndFruit' );
 
-const foods    = require( '../../fixtures/foods' );
-const servings = require( '../../fixtures/servings' );
+const foods      = require( '../../fixtures/foods' );
+const foodGroups = require( '../../fixtures/foodGroups' );
+const servings   = require( '../../fixtures/servings' );
 
 describe( 'selectVegetablesAndFruit()', function(){
 
@@ -11,8 +12,9 @@ describe( 'selectVegetablesAndFruit()', function(){
     // Base dependencies and args that can be overriden in each test.
     // Mocked with data to match the query args (ages 2-3, female).
     this.deps = {
-      queryFoods:    async ( opts ) => foods()[ 'vf' ],
-      queryServings: async ( opts ) => servings()[ '2to3_female_vf' ]
+      queryFoodGroups: async ( opts ) => foodGroups()[ 'vf' ],
+      queryFoods:      async ( opts ) => foods()[ 'vf' ],
+      queryServings:   async ( opts ) => servings()[ '2to3_female_vf' ]
     };
     this.ages   = '2 to 3';
     this.gender = 'Female';
@@ -48,6 +50,15 @@ describe( 'selectVegetablesAndFruit()', function(){
         const selectedFoods = await this.runUnit();
         expect( selectedFoods    ).to.be.an( 'array' ).that.is.not.empty;
         expect( selectedFoods[0] ).to.have.property( 'food' );
+      });
+
+      it( 'complies with the directional statement: "Eat at least one dark green and one orange vegetable each day"', async function(){
+        const selectedFoods = await this.runUnit();
+        const greenVeggies = selectedFoods.filter( ( item ) => item.fgcat_id == 1 );
+        const orangeVeggies = selectedFoods.filter( ( item ) => item.fgcat_id == 2 );
+
+        expect( greenVeggies ).to.be.an( 'array' ).that.is.not.empty;
+        expect( orangeVeggies ).to.be.an( 'array' ).that.is.not.empty;
       });
     });
 

@@ -1,3 +1,5 @@
+const sample = require( './sample' );
+
 const FGID = 'me';
 
 module.exports = ( sources ) =>
@@ -12,7 +14,7 @@ module.exports = ( sources ) =>
 
     const selectedFoods = [];
     while ( selectedFoods.length < servings ) {
-      selectedFoods.push( foods[ Math.floor( Math.random() * foods.length )] );
+      selectedFoods.push( sample( foods ));
     };
 
     return selectedFoods;
