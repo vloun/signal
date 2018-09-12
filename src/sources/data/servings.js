@@ -51,25 +51,25 @@ module.exports = () => [
     fgid: 'vf',
     gender: 'Female',
     ages: '19 to 30',
-    servings: '7 to 8'
+    servings: 8
   },
   {
     fgid: 'vf',
     gender: 'Male',
     ages: '19 to 30',
-    servings: '8 to 10'
+    servings: 9
   },
   {
     fgid: 'vf',
     gender: 'Female',
     ages: '31 to 50',
-    servings: '7 to 8'
+    servings: 8
   },
   {
     fgid: 'vf',
     gender: 'Male',
     ages: '31 to 50',
-    servings: '8 to 10'
+    servings: 9
   },
   {
     fgid: 'vf',
@@ -147,7 +147,7 @@ module.exports = () => [
     fgid: 'gr',
     gender: 'Female',
     ages: '19 to 30',
-    servings: '6 to 7'
+    servings: 7
   },
   {
     fgid: 'gr',
@@ -159,7 +159,7 @@ module.exports = () => [
     fgid: 'gr',
     gender: 'Female',
     ages: '31 to 50',
-    servings: '6 to 7'
+    servings: 7
   },
   {
     fgid: 'gr',
@@ -225,19 +225,19 @@ module.exports = () => [
     fgid: 'mi',
     gender: 'Male',
     ages: '9 to 13',
-    servings: '3 to 4'
+    servings: 4
   },
   {
     fgid: 'mi',
     gender: 'Female',
     ages: '14 to 18',
-    servings: '3 to 4'
+    servings: 4
   },
   {
     fgid: 'mi',
     gender: 'Male',
     ages: '14 to 18',
-    servings: '3 to 4'
+    servings: 4
   },
   {
     fgid: 'mi',
@@ -315,13 +315,13 @@ module.exports = () => [
     fgid: 'me',
     gender: 'Female',
     ages: '9 to 13',
-    servings: '1 to 2'
+    servings: 2
   },
   {
     fgid: 'me',
     gender: 'Male',
     ages: '9 to 13',
-    servings: '1 to 2'
+    servings: 2
   },
   {
     fgid: 'me',
