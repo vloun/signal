@@ -1,4 +1,4 @@
-const FGID = 'vf';
+const FGID = 'me';
 
 module.exports = ( sources ) =>
 
@@ -10,7 +10,6 @@ module.exports = ( sources ) =>
     if ( !servingsObj || !foods.length ) return [];
     const servings = servingsObj.servings;
 
-    // Randomly get food items in the quantity specified by `servings`.
     const selectedFoods = [];
     while ( selectedFoods.length < servings ) {
       selectedFoods.push( foods[ Math.floor( Math.random() * foods.length )] );
